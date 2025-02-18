@@ -8,10 +8,26 @@ Asymptotic notation helps in analyzing an algorithm’s efficiency. It follows s
 - If **f(n) = Ω(g(n))**, then **f(n)** grows at least as fast as **g(n)**.
 - If **f(n) = Θ(g(n))**, then **f(n)** and **g(n)** grow at the same rate.
 
+**Diagram:**
+```
+   f(n) = O(g(n))   → Upper Bound
+   f(n) = Ω(g(n))   → Lower Bound
+   f(n) = Θ(g(n))   → Tight Bound
+```
+
 ### **Comparison of Various Asymptotic Notations**
 - **Big O (O)**: Upper bound (worst-case complexity)
 - **Big Omega (Ω)**: Lower bound (best-case complexity)
 - **Big Theta (Θ)**: Tight bound (average-case complexity)
+
+**Diagram:**
+```
+   O(g(n))
+      |
+      |------> Growth of f(n)
+      |
+   Ω(g(n))
+```
 
 ### **Difference Between Big O and Big Omega**
 - **Big O (O)**: Represents the maximum growth rate.
@@ -21,6 +37,13 @@ Asymptotic notation helps in analyzing an algorithm’s efficiency. It follows s
   - **Ω(n²)** → Lower bound
   - **Θ(n²)** → Tight bound (if upper and lower bounds match)
 
+**Diagram:**
+```
+   n log n → O(n log n)
+   n²      → O(n²)
+   n³      → O(n³)
+```
+
 ### **Key Properties of Asymptotic Notation**
 1. **Transitivity**: If **f(n) = O(g(n))** and **g(n) = O(h(n))**, then **f(n) = O(h(n))**.
 2. **Reflexivity**: **f(n) = O(f(n))**, **f(n) = Ω(f(n))**, **f(n) = Θ(f(n))**.
@@ -28,11 +51,16 @@ Asymptotic notation helps in analyzing an algorithm’s efficiency. It follows s
 4. **Addition Rule**: If **f(n) = O(g(n))** and **h(n) = O(g(n))**, then **(f(n) + h(n)) = O(g(n))**.
 5. **Multiplication Rule**: If **f(n) = O(g(n))** and **h(n) = O(k(n))**, then **(f(n) * h(n)) = O(g(n) * k(n))**.
 
+**Diagram:**
+```
+   O(f(n)) + O(g(n)) = O(max(f(n), g(n)))
+   O(f(n)) * O(g(n)) = O(f(n) * g(n))
+```
+
 ### **Importance of These Properties**
 - Helps in simplifying complex time complexity expressions.
 - Allows accurate classification of algorithm efficiency.
 - Aids in comparing multiple algorithms effectively.
 
 Understanding these properties enables efficient problem-solving and better selection of optimal algorithms.
-
 
