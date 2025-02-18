@@ -1,4 +1,4 @@
-**Asymptotic Notations**
+# **Asymptotic Notations**
 
 ### **Introduction to Asymptotic Notation**
 Asymptotic notation is a mathematical tool used to describe the **time complexity** of an algorithm. It helps in analyzing how the algorithm's performance scales with input size (**n**).
