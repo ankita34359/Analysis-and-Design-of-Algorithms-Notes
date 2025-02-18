@@ -7,6 +7,7 @@ A **Recurrence Relation** is a mathematical function that defines a sequence rec
 - Recurrence relations occur in algorithms where a problem is broken into smaller subproblems.
 - Example: Binary Search, Merge Sort, Fibonacci sequence.
 - They can be solved using:
+  
   1. **Substitution Method**
   2. **Master Theorem**
   3. **Recursion Tree Method**
