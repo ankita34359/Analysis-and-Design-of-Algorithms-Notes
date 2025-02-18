@@ -13,7 +13,7 @@ We will analyze these properties for **Big O (O), Big Omega (Ω), Big Theta (Θ)
 
 #### **1. Symmetric Property**
 - A relation **R** is symmetric if:
-  \[ f(n) R g(n) \Rightarrow g(n) R f(n) \]
+  \[ f(n) R g(n) => g(n) R f(n) \]
 - **Applies to:** Θ (Theta)
 - **Does not apply to:** O, Ω, o, ω
 
