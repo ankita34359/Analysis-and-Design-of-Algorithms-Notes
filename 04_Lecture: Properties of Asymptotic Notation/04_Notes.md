@@ -1,4 +1,4 @@
-**Properties of Asymptotic Notation**
+# **Properties of Asymptotic Notation**
 
 ### **Introduction**
 Asymptotic notation helps in analyzing an algorithm’s efficiency. It follows specific mathematical properties that allow better comparison and simplification of time complexity expressions.
