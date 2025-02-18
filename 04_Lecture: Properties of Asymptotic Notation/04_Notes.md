@@ -3,7 +3,7 @@
 ### **Introduction**
 Asymptotic notation helps in analyzing an algorithm’s efficiency. It follows specific mathematical properties that allow better comparison and simplification of time complexity expressions.
 
-Asymptotic notations help in analyzing the efficiency of algorithms. These notations have specific mathematical properties:
+It help in analyzing the efficiency of algorithms. These notations have specific mathematical properties:
 1. **Symmetric Property**
 2. **Reflexive Property**
 3. **Transitive Property**
