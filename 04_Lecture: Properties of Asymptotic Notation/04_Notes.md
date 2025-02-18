@@ -3,6 +3,11 @@
 ### **Introduction**
 Asymptotic notation helps in analyzing an algorithm’s efficiency. It follows specific mathematical properties that allow better comparison and simplification of time complexity expressions.
 
+Asymptotic notations help in analyzing the efficiency of algorithms. These notations have specific mathematical properties:
+1. **Symmetric Property**
+2. **Reflexive Property**
+3. **Transitive Property**
+   
 ### **Comparison between Functions (Fn and gn)**
 - If **f(n) = O(g(n))**, then **f(n)** grows at most as fast as **g(n)**.
 - If **f(n) = Ω(g(n))**, then **f(n)** grows at least as fast as **g(n)**.
@@ -44,12 +49,44 @@ Asymptotic notation helps in analyzing an algorithm’s efficiency. It follows s
    n³      → O(n³)
 ```
 
-### **Key Properties of Asymptotic Notation**
-1. **Transitivity**: If **f(n) = O(g(n))** and **g(n) = O(h(n))**, then **f(n) = O(h(n))**.
-2. **Reflexivity**: **f(n) = O(f(n))**, **f(n) = Ω(f(n))**, **f(n) = Θ(f(n))**.
-3. **Symmetry in Theta**: If **f(n) = Θ(g(n))**, then **g(n) = Θ(f(n))**.
-4. **Addition Rule**: If **f(n) = O(g(n))** and **h(n) = O(g(n))**, then **(f(n) + h(n)) = O(g(n))**.
-5. **Multiplication Rule**: If **f(n) = O(g(n))** and **h(n) = O(k(n))**, then **(f(n) * h(n)) = O(g(n) * k(n))**.
+### **Properties of Different Asymptotic Notations**
+We will analyze these properties for **Big O (O), Big Omega (Ω), Big Theta (Θ), Small o (o), and Small Omega (ω).**
+
+#### **1. Symmetric Property**
+- A relation **R** is symmetric if:
+  \[ f(n) R g(n) \Rightarrow g(n) R f(n) \]
+- **Applies to:** Θ (Theta)
+- **Does not apply to:** O, Ω, o, ω
+
+#### **2. Reflexive Property**
+- A relation **R** is reflexive if:
+  \[ f(n) R f(n) \]
+- **Applies to:** O, Ω, Θ
+- **Does not apply to:** o, ω
+
+#### **3. Transitive Property**
+- A relation **R** is transitive if:
+  \[ f(n) R g(n) \text{ and } g(n) R h(n) \Rightarrow f(n) R h(n) \]
+- **Applies to:** O, Ω, Θ, o, ω
+
+### **Comparison Table**
+| Property  | Big O (O) | Big Omega (Ω) | Big Theta (Θ) | Small o (o) | Small Omega (ω) |
+|-----------|----------|--------------|--------------|------------|---------------|
+| Symmetric | ❌       | ❌           | ✅           | ❌         | ❌           |
+| Reflexive | ✅       | ✅           | ✅           | ❌         | ❌           |
+| Transitive | ✅      | ✅           | ✅           | ✅         | ✅           |
+
+### **Explanation with Examples**
+#### **1. Symmetric Property Example**
+- **Θ(n²) is symmetric:** If **f(n) = Θ(g(n))**, then **g(n) = Θ(f(n))**.
+- **O(n²) is not symmetric:** If **f(n) = O(g(n))**, it does not imply **g(n) = O(f(n))**.
+
+#### **2. Reflexive Property Example**
+- **O(n²) is reflexive:** Any function **f(n) = O(f(n))**.
+- **o(n²) is not reflexive:** **o(n²)** means **f(n) grows strictly slower than n²**, so it does not hold for itself.
+
+#### **3. Transitive Property Example**
+- If **f(n) = O(g(n))** and **g(n) = O(h(n))**, then **f(n) = O(h(n))**.
 
 **Diagram:**
 ```
@@ -62,5 +99,7 @@ Asymptotic notation helps in analyzing an algorithm’s efficiency. It follows s
 - Allows accurate classification of algorithm efficiency.
 - Aids in comparing multiple algorithms effectively.
 
-Understanding these properties enables efficient problem-solving and better selection of optimal algorithms.
+
+### **Conclusion**
+Understanding these properties helps in proving relationships between different functions, making asymptotic analysis more rigorous.
 
