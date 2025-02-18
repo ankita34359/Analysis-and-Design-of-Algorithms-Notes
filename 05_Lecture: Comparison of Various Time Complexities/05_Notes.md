@@ -1,4 +1,4 @@
-**Comparison of Various Time Complexities**
+# **Comparison of Various Time Complexities**
 
 ### **Introduction**
 Time complexity measures the efficiency of an algorithm in terms of input size (**n**). It helps in determining how an algorithm's execution time increases as **n** grows.
