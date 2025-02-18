@@ -25,7 +25,7 @@ We will analyze these properties for **Big O (O), Big Omega (Ω), Big Theta (Θ)
 
 #### **3. Transitive Property**
 - A relation **R** is transitive if:
-  \[ f(n) R g(n) \text{ and } g(n) R h(n) \Rightarrow f(n) R h(n) \]
+  \[ f(n) R g(n) \text{ and } g(n) R h(n) => f(n) R h(n) \]
 - **Applies to:** O, Ω, Θ, o, ω
 
 ### **Comparison Table**
