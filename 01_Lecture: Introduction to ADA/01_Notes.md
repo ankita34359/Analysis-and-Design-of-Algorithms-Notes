@@ -1,4 +1,4 @@
-**Introduction to Algorithm & Syllabus Discussion**
+# **Introduction to Algorithm & Syllabus Discussion**
 
 ### **Introduction**
 Algorithms are a fundamental subject in computer science, essential for problem-solving, efficient programming, and optimizing computational tasks.
