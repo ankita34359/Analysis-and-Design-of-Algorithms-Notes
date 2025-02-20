@@ -1,4 +1,4 @@
-# **Recurrence Relation & Binary Search Recurrence Relation** 
+# **Recurrence Relation & Binary Search Recurrence Relation**  
  
 ### **Introduction**
 A **Recurrence Relation** is a mathematical function that defines a sequence recursively by expressing each term as a function of its preceding terms.
