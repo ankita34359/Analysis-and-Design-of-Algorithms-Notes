@@ -1,4 +1,4 @@
-# **Time Complexities of Searching and Sorting Algorithms**
+# **Time Complexities of Searching and Sorting Algorithms** 
 
 ### **Introduction**
 Understanding the time complexities of searching and sorting algorithms is crucial for selecting the most efficient algorithm based on problem constraints and input size.
