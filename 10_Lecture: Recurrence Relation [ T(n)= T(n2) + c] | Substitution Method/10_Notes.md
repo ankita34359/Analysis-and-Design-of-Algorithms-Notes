@@ -24,7 +24,7 @@ We apply the **Substitution Method** to solve the recurrence:
    - The recurrence continues until \( n/2^k = 1 \), i.e., \( k = \log_2{n} \)
 
 3. **Substituting \( k \) into the equation:**
-   \[ T(n) = T(1) + c \cdot \log_2{n} \]
+   \[ T(n) = T(1) + c*log_2{n} \]
 
 4. **Final Complexity:**
    - Since \( T(1) \) is a constant, we get:
