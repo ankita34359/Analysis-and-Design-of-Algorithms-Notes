@@ -18,7 +18,7 @@ We apply the **Substitution Method** to solve the recurrence:
    - \( T(n/2) = T(n/4) + c \)
    - \( T(n/4) = T(n/8) + c \)
    - Generalizing:
-     \[ T(n) = T(n/2^k) + k \cdot c \]
+     \[ T(n) = T(n/2^k) + k*c \]
 
 2. **Determine the stopping condition:**
    - The recurrence continues until \( n/2^k = 1 \), i.e., \( k = \log_2{n} \)
