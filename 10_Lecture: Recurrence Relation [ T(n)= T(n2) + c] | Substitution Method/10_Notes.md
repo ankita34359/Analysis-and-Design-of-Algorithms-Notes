@@ -21,7 +21,7 @@ We apply the **Substitution Method** to solve the recurrence:
      \[ T(n) = T(n/2^k) + k*c \]
 
 2. **Determine the stopping condition:**
-   - The recurrence continues until \( n/2^k = 1 \), i.e., \( k = \log_2{n} \)
+   - The recurrence continues until \( n/2^k = 1 \), i.e., \( k = log_2{n} \)
 
 3. **Substituting \( k \) into the equation:**
    \[ T(n) = T(1) + c*log_2{n} \]
