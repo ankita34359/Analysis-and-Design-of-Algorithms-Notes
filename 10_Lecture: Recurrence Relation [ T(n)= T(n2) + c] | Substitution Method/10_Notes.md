@@ -10,7 +10,7 @@ where:
 - \(T(n/2)\) represents the time complexity of solving a smaller subproblem of size \(n/2\)
 - \(c\) is a constant time taken for computing the middle element and making comparisons.
 
-## **🔍 Substitution Method Analysis**
+## **Substitution Method Analysis**
 We apply the **Substitution Method** to solve the recurrence:
 
 1. **Expand the recurrence step by step:**
@@ -30,7 +30,7 @@ We apply the **Substitution Method** to solve the recurrence:
    - Since \( T(1) \) is a constant, we get:
      \[ T(n) = O(\log n) \]
 
-## **📊 Graphical Representation**
+## **Graphical Representation**
 ```
 T(n) = T(n/2) + c
 
@@ -40,7 +40,7 @@ T(n) = T(n/2) + c
  /  \
 ...  ...
 ```
-- The number of levels in the recursion tree is \( \log_2{n} \)
+- The number of levels in the recursion tree is \ (log_2{n} \)
 - At each level, we perform constant work \( c \)
 - The total complexity sums up to **O(log n)**
 
