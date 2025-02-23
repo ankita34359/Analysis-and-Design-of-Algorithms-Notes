@@ -1,5 +1,5 @@
 # **Recurrence Relation: T(n) = T(n/2) + c | Substitution Method** 
-
+ 
 ## **📌 Introduction**
 Recurrence relations are used to express the running time of recursive algorithms. In this lecture, we analyze the recurrence relation for **Binary Search**:
 
