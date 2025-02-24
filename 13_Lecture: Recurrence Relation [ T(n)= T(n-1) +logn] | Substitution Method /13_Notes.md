@@ -16,7 +16,7 @@ We solve the recurrence step by step:
 ### **Step 1: Expand the Recurrence**
 Expanding for the first few steps:
 1. **First expansion:**
-   \[ T(n) = T(n-1) + \log n \]
+   \[ T(n) = T(n-1) + log n \]
 2. **Expand \( T(n-1) \):**
    \[ T(n) = (T(n-2) + \log (n-1)) + \log n \]
    \[ T(n) = T(n-2) + \log(n-1) + \log n \]
