@@ -14,11 +14,11 @@ where:
 We apply the **Substitution Method** to solve this recurrence:
 
 1. **Expand the recurrence step by step:**
-   - \( T(n) = n \times T(n-1) \)
-   - \( T(n-1) = (n-1) \times T(n-2) \)
-   - \( T(n-2) = (n-2) \times T(n-3) \)
+   - \( T(n) = nxT(n-1) \)
+   - \( T(n-1) = (n-1)xT(n-2) \)
+   - \( T(n-2) = (n-2)xT(n-3) \)
    - Expanding further:
-     \[ T(n) = n \times (n-1) \times (n-2) \times (n-3) \times ... \times 2 \times 1 \times T(1) \]
+     \[ T(n) = nx(n-1)x(n-2)x(n-3)x ... x2x1xT(1) \]
 
 2. **Determine the base case:**
    - If \( T(1) = 1 \), then we get:
@@ -27,10 +27,10 @@ We apply the **Substitution Method** to solve this recurrence:
 3. **Detailed Step-by-Step Calculation:**
    - Let's compute for small values of \( n \):
      - \( T(1) = 1 \)
-     - \( T(2) = 2 \times T(1) = 2 \times 1 = 2 \)
-     - \( T(3) = 3 \times T(2) = 3 \times 2 = 6 \)
-     - \( T(4) = 4 \times T(3) = 4 \times 6 = 24 \)
-     - \( T(5) = 5 \times T(4) = 5 \times 24 = 120 \)
+     - \( T(2) = 2xT(1) = 2x1 = 2 \)
+     - \( T(3) = 3xT(2) = 3x2 = 6 \)
+     - \( T(4) = 4xT(3) = 4x6 = 24 \)
+     - \( T(5) = 5xT(4) = 5x24 = 120 \)
    - As seen from the calculations, the values grow extremely fast.
 
 4. **Final Complexity:**
