@@ -34,7 +34,7 @@ Expanding for the first few steps:
 The sum \( \sum_{i=2}^{n} \log i \) is equivalent to:
 \[ log(2) + log(3) + log(4) + ... + log(n) \]
 Using logarithm properties, we rewrite it as:
-\[ \log(2 \times 3 \times 4 \times ... \times n) = \log(n!) \]
+\[ \log(2x3x4x... x n) = \log(n!) \]
 Using **Stirling's approximation**:  \( \log(n!) \approx n \log n - n \), we approximate:
 \[ T(n) = O(n \log n) \]
 
