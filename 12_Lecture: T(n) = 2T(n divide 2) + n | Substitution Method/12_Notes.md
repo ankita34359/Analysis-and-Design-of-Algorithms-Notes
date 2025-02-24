@@ -10,7 +10,7 @@ where:
 - \( T(n/2) \) represents solving two subproblems of size \( n/2 \).
 - \( n \) represents the additional work done at each level of recursion.
 
-## **🔍 Solving Using Substitution Method**
+## **Solving Using Substitution Method**
 We apply the **Substitution Method** to expand the recurrence step by step:
 
 ### **Step 1: Expand the Recurrence**
@@ -36,7 +36,7 @@ Expanding the recurrence for the first few steps:
   \[ T(n) = n T(1) + n \log_2 n \]
   \[ T(n) = O(n \log n) \]
 
-## **📊 Graphical Representation**
+## **Graphical Representation**
 ```
 T(n) = 2T(n/2) + n
 
@@ -50,10 +50,10 @@ T(n/4) T(n/4) T(n/4) T(n/4)
 - The total work done at each level is proportional to **n**.
 - The total complexity sums to **O(n log n)**.
 
-## **📌 Conclusion**
+## **Conclusion**
 - The recurrence \( T(n) = 2T(n/2) + n \) describes **Divide and Conquer Recurrences**.
 - Solving it using the **Substitution Method** gives a time complexity of **O(n log n)**.
 - This confirms that many efficient algorithms, like **Merge Sort**, operate in **O(n log n)** time.
 
 ---
-📌 **Mastering recurrence relations is key to understanding algorithm efficiency! Keep practicing! 🚀**
+**Mastering recurrence relations is key to understanding algorithm efficiency! Keep practicing! 🚀**
