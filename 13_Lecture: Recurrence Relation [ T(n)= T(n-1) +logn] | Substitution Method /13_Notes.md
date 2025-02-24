@@ -40,7 +40,7 @@ Using logarithm properties, we rewrite it as:
 
 Using **Stirling's approximation**:  \( \log(n!) \approx n \log n - n \), we approximate:
 
-\[ T(n) = O(n \log n) \]
+\[ T(n) = O(nlog n) \]
 
 ## **Graphical Representation**
 ```
