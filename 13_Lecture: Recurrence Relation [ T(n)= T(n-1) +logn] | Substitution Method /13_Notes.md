@@ -8,7 +8,7 @@ A **recurrence relation** defines a function based on its values at smaller inpu
 where:
 - \( T(n) \) represents the time complexity of solving a problem of size \( n \).
 - \( T(n-1) \) represents solving a subproblem of size \( n-1 \).
-- \( \log n \) represents the additional work done at each step.
+- \( log n \) represents the additional work done at each step.
 
 ## **Solving Using Substitution Method**
 We solve the recurrence step by step:
@@ -33,9 +33,13 @@ Expanding for the first few steps:
 ### **Step 3: Solve the Summation**
 The sum \( \sum_{i=2}^{n} \log i \) is equivalent to:
 \[ log(2) + log(3) + log(4) + ... + log(n) \]
+
 Using logarithm properties, we rewrite it as:
+
 \[ \log(2x3x4x... x n) = \log(n!) \]
+
 Using **Stirling's approximation**:  \( \log(n!) \approx n \log n - n \), we approximate:
+
 \[ T(n) = O(n \log n) \]
 
 ## **Graphical Representation**
