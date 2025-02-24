@@ -51,7 +51,7 @@ T(n) = n * T(n-1)
 - The number of levels in the recursion tree is **n**, leading to **O(n!)** complexity.
 
 ## **📌 Conclusion**
-- The recurrence relation \( T(n) = n \times T(n-1) \) describes **Factorial Growth**.
+- The recurrence relation \( T(n) = nxT(n-1) \) describes **Factorial Growth**.
 - Solving it using the **Substitution Method** gives us a time complexity of **O(n!)**.
 - This confirms that **Factorial Time Complexity** is extremely inefficient for large inputs.
 - Factorial growth is much slower than polynomial or exponential complexities, making such algorithms impractical for large inputs.
