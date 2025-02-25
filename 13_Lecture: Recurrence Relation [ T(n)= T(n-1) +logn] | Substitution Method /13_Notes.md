@@ -1,4 +1,4 @@
-# **Recurrence Relation: T(n) = T(n-1) + log n | Substitution Method**
+# **Recurrence Relation: T(n) = T(n-1) + log n | Substitution Method** 
 
 ## **Introduction**
 A **recurrence relation** defines a function based on its values at smaller inputs. In this lecture, we analyze and solve the recurrence:
